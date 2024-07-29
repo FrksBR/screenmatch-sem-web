@@ -1,13 +1,11 @@
 package br.com.frks.screenmatch;
 
-import br.com.frks.screenmatch.model.DadosSerie;
+import br.com.frks.model.DadosSerie;
 import br.com.frks.service.ConsumoAPI;
 import br.com.frks.service.ConverteDados;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-
-import javax.swing.plaf.synth.SynthScrollBarUI;
 
 @SpringBootApplication
 public class ScreenmatchApplication implements CommandLineRunner {
